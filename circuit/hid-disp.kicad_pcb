@@ -460,7 +460,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 0 4.5 0)
+			(at 0.5 4.5 0)
 			(layer "F.Fab")
 			(uuid "c537e096-63bb-498a-a292-81a508bb67f8")
 			(effects
@@ -4356,8 +4356,8 @@
 		)
 	)
 	(gr_line
-		(start 117 121)
-		(end 159 121)
+		(start 114.5 121)
+		(end 157.5 121)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4446,7 +4446,7 @@
 		(uuid "832251da-18d7-44b1-86ed-1f9b3322367c")
 	)
 	(gr_text "M.Š. 11/2026"
-		(at 141 131.5 0)
+		(at 141 132 0)
 		(layer "F.SilkS")
 		(uuid "f2437065-0224-4f60-bcf3-9d8c47bdfa1e")
 		(effects
@@ -4456,6 +4456,19 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "http://github.com/milan-simanek/hid-disp"
+		(at 157.5 132.5 0)
+		(layer "B.SilkS")
+		(uuid "c30becf3-44eb-4c4d-947b-6d22dfef44c7")
+		(effects
+			(font
+				(size 1 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(dimension
